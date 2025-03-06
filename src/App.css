@@ -27,7 +27,7 @@
 
 
 .insta-wrapper{
-  width: 414px;
+  width: 100vw;
   min-height: 100vh;
   background-color: aliceblue;
   position: relative;
@@ -38,6 +38,7 @@
   display: flex;
   overflow-x: scroll;
   padding: 10px;
+  margin-left: 20px;
 }
 
 .user-story {
