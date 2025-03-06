@@ -1,3 +1,101 @@
-.App {
+.app {
   text-align: center;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: olive;
+  -webkit-overflow-scrolling: touch;
+}
+
+.story-list::-webkit-scrollbar {
+  height: 6px; 
+}
+
+.story-list::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.story-list::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 3px; 
+}
+
+.story-list::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+.insta-wrapper{
+  width: 414px;
+  min-height: 100vh;
+  background-color: aliceblue;
+  position: relative;
+  
+}
+
+.story-list {
+  display: flex;
+  overflow-x: scroll;
+  padding: 10px;
+}
+
+.user-story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.story-thumbnail {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.story-viewer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.story-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.navigation-left,
+.navigation-right {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  cursor: pointer;
+}
+
+.navigation-left {
+  left: 0;
+}
+
+.navigation-right {
+  right: 0;
+}
+
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
 }
