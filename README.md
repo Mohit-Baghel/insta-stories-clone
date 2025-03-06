@@ -1,5 +1,8 @@
 # insta-stories-clone
 
+# Live URL
+# https://insta-stories-clone.vercel.app/
+
 ## Installation
 Clone the repository:
     ...
