@@ -149,5 +149,12 @@
   object-fit: contain;
 }
 
+.navigation-left,
+.navigation-right {
+  outline: none; 
+  -webkit-tap-highlight-color: transparent; 
+}
+
+
 
 
