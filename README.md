@@ -36,9 +36,15 @@ Open the app in your browser.
 This project is a simplified version of Instagram's Stories feature, built using React and TypeScript. It allows users to view a list of stories, navigate through them, and automatically advance to the next story after 5 seconds.
 
 Features:
-    -Horizontal Scrollable Story List:
     -Displays a list of user stories in a horizontally scrollable view.
     -Each story is represented by a thumbnail image.
+    -Displays a progress bar for the current story.
+    -Progress bar updates dynamically as the story progresses.
+    -Shows separate progress segments for each story in the current user’s story list.
+    -Shows the name of the current user whose story is being viewed.
+    -Left Click: Moves to the previous story or the previous user’s last story.
+    -Right Click: Moves to the next story or the next user’s first story.
+    -Allows the user to close the story viewer and return to the thumbnail list.
 
 Story Viewer:
     -Users can click on a story thumbnail to view the full story.
